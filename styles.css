@@ -4,3 +4,61 @@
  cookie image is linked, but feel free to use your own if you want!
  (card) box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
 */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0
+}
+
+.head {
+    height: 250px;
+    background-image: url(images/cookies.jpg);
+    background-size: 100%;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-style: italic;
+    font-size: small;
+}
+
+h4 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-left: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#ingredients {
+    width: 600px;
+    margin-left: 20px;
+}
+
+#directions {
+    width: 600px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+}
+
